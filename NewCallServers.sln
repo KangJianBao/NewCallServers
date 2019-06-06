@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallServers", "CallServers\CallServers.csproj", "{6E84CD9E-C082-44E0-ADE1-C3A33EBA29B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallServersModel", "CallServersModel\CallServersModel.csproj", "{8A256546-03BE-4ADA-A768-85695D3AEFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallServersCommon", "CallServersCommon\CallServersCommon.csproj", "{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,22 @@ Global
 		{6E84CD9E-C082-44E0-ADE1-C3A33EBA29B1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E84CD9E-C082-44E0-ADE1-C3A33EBA29B1}.Release|x86.ActiveCfg = Release|x86
 		{6E84CD9E-C082-44E0-ADE1-C3A33EBA29B1}.Release|x86.Build.0 = Release|x86
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A256546-03BE-4ADA-A768-85695D3AEFF8}.Release|x86.Build.0 = Release|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F076CF5-65D1-4FBB-B03A-9660687EDCF7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

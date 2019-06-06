@@ -83,7 +83,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CallMessageInfo.cs" />
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +190,31 @@
     <None Include="Resources\title.png" />
   </ItemGroup>
   <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\20190531113758792_easyicon_net_32.ico" />
+    <Content Include="Resources\20190531113805244_easyicon_net_16.ico" />
+    <Content Include="Resources\20190531113811255_easyicon_net_48.ico" />
+    <Content Include="Resources\20190531113816410_easyicon_net_64.ico" />
+    <None Include="Resources\Apply_16x161.png" />
+    <None Include="Resources\Apply_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CallServersCommon\CallServersCommon.csproj">
+      <Project>{3f076cf5-65d1-4fbb-b03a-9660687edcf7}</Project>
+      <Name>CallServersCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CallServersModel\CallServersModel.csproj">
+      <Project>{8a256546-03be-4ada-a768-85695d3aeff8}</Project>
+      <Name>CallServersModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <COMReference Include="APlayer3Lib">
       <Guid>{97830570-35FE-4195-83DE-30E79B718713}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -208,21 +232,6 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\20190531113758792_easyicon_net_32.ico" />
-    <Content Include="Resources\20190531113805244_easyicon_net_16.ico" />
-    <Content Include="Resources\20190531113811255_easyicon_net_48.ico" />
-    <Content Include="Resources\20190531113816410_easyicon_net_64.ico" />
-    <None Include="Resources\Apply_16x161.png" />
-    <None Include="Resources\Apply_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

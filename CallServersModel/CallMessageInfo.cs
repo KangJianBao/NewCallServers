@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CallServers
+namespace CallServersModel
 {
+
     public class CallMessageInfo
     {
         /// <summary>
@@ -23,7 +24,6 @@ namespace CallServers
         /// 日程类型
         /// </summary>
         public string AppointmentType { get; set; }
-
 
     }
 }
